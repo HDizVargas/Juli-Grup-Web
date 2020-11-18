@@ -1,3 +1,18 @@
-header > ul >li {
-    list-style-type: none;
+body{
+    margin: 0;
+    background-color: floralwhite;
+}
+#navbar {
+    display: grid;
+}
+#logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+}
+#links {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
 }
