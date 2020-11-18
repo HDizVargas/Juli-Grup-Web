@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: floralwhite;
+    font-family:"Arial";
+}
+#navbar {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    padding:0 40px;
+}
+#logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+}
+#links {
+    display: grid;
+    column-gap: 1em;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+}
+
+#navbar a {
+    text-decoration:none;
+    color: grey;
+}
+#portada{
+    display: grid;
+}
+#portada img {
+    width: 100%;
+}
+#sec1{
+    display: grid;
+    justify-content: center;
+}
+#titulo_art{
+    display:grid;
+    text-align: center;
+    grid-template-rows: 20% 20% 20%;
+}
