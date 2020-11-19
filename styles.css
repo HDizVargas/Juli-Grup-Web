@@ -32,12 +32,51 @@ body{
 #portada img {
     width: 100%;
 }
-#sec1{
+.section{
     display: grid;
     justify-content: center;
+    padding: 5%;
+    grid-template-columns: 60%;
 }
 #titulo_art{
-    display:grid;
     text-align: center;
-    grid-template-rows: 20% 20% 20%;
+    line-height: 0em;
+}
+#subtitulo_art{
+    text-align: center;
+}
+#art{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 5%;
+}
+#img{
+    display: grid;
+    justify-items: center;
+}
+.imagen_art img{
+    width: 100%;
+    
+}
+.button{
+    border:none;
+    padding:5px;
+    border-radius: 4px;
+    background-color: darksalmon;
+    width: 100%;
+}
+.button:hover{
+    background-color: salmon;
+}
+#sect_alt{
+    background-color: rgb(201, 201, 201);
+}
+#img2{
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+}
+#img3{
+    display: grid;
+    justify-content: end;
 }
