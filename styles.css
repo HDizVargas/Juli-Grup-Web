@@ -7,17 +7,16 @@ body{
     display: grid;
     min-height: 100px;
     grid-auto-flow: column;
+    justify-content: space-between;
     padding:0 40px;
 }
 #logo {
     display: grid;
-    justify-content: start;
     align-content: center;
 }
 #links {
     display: grid;
     column-gap: 1em;
-    justify-content: right;
     align-content: center;
     grid-auto-flow: column;
 }
@@ -32,6 +31,7 @@ body{
 #portada img {
     width: 100%;
 }
+<<<<<<< Updated upstream
 .section{
     display: grid;
     justify-content: center;
@@ -79,4 +79,72 @@ body{
 #img3{
     display: grid;
     justify-content: end;
+=======
+.articulo{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70%;
+    padding: 5%;
+}
+.encabezado{
+    display: grid;
+    text-align: center;
+    grid-template-rows: min-content;
+    align-content: space-between;
+}
+.titulo{
+    line-height: 1em;
+}
+#hor > .cuerpo{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50%;
+    column-gap: 2em;
+}
+.texto{
+    display: grid;
+    grid-template-rows: min-content;
+}
+
+.imagen{
+    align-self: end;
+}
+.imagen img{
+    width: 100%;
+}
+#button{
+    border:none;
+    background-color: darksalmon;
+    border-radius: 4px;
+    height: min-content;
+    padding:5px;
+    align-self: end;
+}
+button:hover{
+    background-color: salmon;
+}
+#ver{
+    background-color: rgb(197, 197, 197);
+}
+#ver > .cuerpo > .imagen{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 80%;
+}
+footer{
+    display: grid;
+    background-color: rgb(75, 75, 75);
+    padding : 0 40px;
+    min-height: 50px;
+    place-content: center;
+}
+#links_fot{
+    display: grid;
+    column-gap: 1em;
+    grid-auto-flow: column;
+}
+#links_fot a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+>>>>>>> Stashed changes
 }
